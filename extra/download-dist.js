@@ -8,7 +8,8 @@ const version = packageJSON.version;
 
 const filename = "dist.tar.gz";
 
-const url = `https://github.com/louislam/uptime-kuma/releases/download/${version}/${filename}`;
+// const url = `https://github.com/louislam/uptime-kuma/releases/download/${version}/${filename}`;
+const url = `https://github.com/louislam/uptime-kuma/releases/download/1.23.15/dist.tar.gz`;
 download(url);
 
 /**
